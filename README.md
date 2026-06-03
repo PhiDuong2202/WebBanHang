@@ -56,28 +56,3 @@ Frontend mặc định chạy tại `http://localhost:5173`.
 
 ---
 
-## Đẩy lên GitHub ( ví dụ nhanh )
-
-1. Tạo repository trên GitHub (nếu chưa có).
-2. Thêm remote và đẩy:
-
-```bash
-git remote add origin git@github.com:USERNAME/REPO.git
-git branch -M main
-git add .
-git commit -m "Initial: add gitignore and update README"
-git push -u origin main
-```
-
-Thay `git@github.com:USERNAME/REPO.git` bằng URL repository của bạn. Nếu dùng HTTPS, dùng `https://...`.
-
----
-
-## Ghi chú
-
-- File `.gitignore` đã được thêm để loại trừ `node_modules`, `bin/`, `obj/`, và các file môi trường.
-- Nếu gặp lỗi khi `git push`, kiểm tra xem remote đã cấu hình và bạn đã thiết lập SSH key hoặc credential cho HTTPS.
-
----
-
-Nếu bạn muốn, tôi có thể thực hiện commit và đẩy các thay đổi này cho bạn — cho tôi biết URL repository hoặc đảm bảo remote `origin` đã cấu hình.
