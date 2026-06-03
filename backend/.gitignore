@@ -1,0 +1,24 @@
+# .NET Core
+bin/
+obj/
+publish/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# EF Core Migrations history
+*.efcore
+
+# Logs
+*.log
+logs/
+
+# appsettings
+appsettings.*.json
+
+# Rider / IDEs
+.idea/
+.vscode/
